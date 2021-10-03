@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/headerRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barang 1"
+                android:textSize="36dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/kdBarangRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/stokRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok: 20"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp">
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"/>
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Del"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
